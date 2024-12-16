@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #bdbdbd;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  z-index: 2;
+}
+.App h2{
+  text-transform: uppercase;
+  font-family: serif;
+  color:white;
+}
+.App h1{
+  color:red;
+}
+.btn-group{
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+button.minus{
+  width: 140px;
+  height: 35px;
+  cursor: pointer;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color:#aa0303;
+  color:white;
+}
+button.plus{
+  width: 140px;
+  height: 35px;
+  cursor: pointer;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #0f008f;
+  color:white;
+}
+/* модельне вікно */
+.open-modal-btn{
+  position: absolute;
+  top: 3%;
+  right: 5%;
+  z-index: 1;
+  cursor: pointer;
+}
+button.closed-modal-btn{
+  position: absolute;
+  top: 3%;
+  right: 5%;
+  font-size: 24px;
+  border: none;
+  background-color:transparent;
+  cursor: pointer;
+}
