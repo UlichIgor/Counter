@@ -25,9 +25,21 @@ code {
   justify-content: center;
   z-index: 2;
 }
+.open-modal-btn{
+  position: absolute;
+  top: 3%;
+  right: 5%;
+  z-index: 1;
+  background-color: #212121;
+  color:white;
+  padding: 7px 14px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
 .App h2{
   text-transform: uppercase;
-  font-family: serif;
+  font-family: sans-serif;
   color:white;
 }
 .App h1{
